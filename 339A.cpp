@@ -19,3 +19,4 @@ int main(){
     
     return 0;
 }
+//i have first extract the digits then sort it then push it to the string
