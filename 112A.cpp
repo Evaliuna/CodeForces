@@ -11,3 +11,4 @@ int main() {
 
     return 0;
 }
+//i make this string to lower case then use special function of lexicography to compare both string which one have upper value letter
