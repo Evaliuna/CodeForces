@@ -17,3 +17,4 @@ int main() {
     }
     return 0;
 }
+//number of element in between a string
