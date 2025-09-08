@@ -17,3 +17,4 @@ int main() {
     cout<<x<<"\n";
     return 0;
 }
+//checked is it increment or decrement in string then calculated accordingly 
