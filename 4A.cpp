@@ -11,3 +11,4 @@ int main() {
    
     return 0;
 }
+//positive and even number
