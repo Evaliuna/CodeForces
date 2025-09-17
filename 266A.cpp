@@ -13,3 +13,4 @@ int main(){
    cout<<count<<"\n";
     return 0;
 }
+//checking similar element in a string
