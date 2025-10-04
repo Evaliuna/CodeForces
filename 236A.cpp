@@ -17,3 +17,4 @@ int main(){
     else cout<<"IGNORE HIM!";
 
 }
+//check if it's a boy or girl
