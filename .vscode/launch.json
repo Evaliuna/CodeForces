@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "externalConsole": true,
+      "stopAtEntry": false,
+      "internalConsoleOptions": "neverOpen",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\gdb.exe",
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    }
+  ]
+}
