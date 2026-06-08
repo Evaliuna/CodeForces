@@ -1,26 +1,19 @@
 #include <iostream>
-#include <string>
-#include <algorithm>
 using namespace std;
 
 int main() {
-    int n,x = 0;
-    cin >> n;
+    int w;
+    cin>>w;
 
-    string statement;
-
-    for(int i = 0; i<n; i++){
-        cin >> statement;
-        transform(statement.begin(), statement.end(), statement.begin(), ::tolower);
-
-        if(statement =="++x" || statement =="x++"){
-            x++;
-        }
-        else if(statement =="--x" || statement =="x--"){
-            x--;
-        }
+    if(w==2){
+        cout<<"NO\n";
     }
-    cout << x << endl;
+    else if(w%2==0){
+        cout<<"YES\n";
+    }
+    else{
+        cout<<"NO\n";
+    }
 
 return 0;
 }
